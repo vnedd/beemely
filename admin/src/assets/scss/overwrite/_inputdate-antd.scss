@@ -1,0 +1,38 @@
+.custom-datepicker {
+  height: 40px;
+  border-color: $color-gray-100 !important;
+  box-shadow: none !important;
+  outline: none;
+
+  .ant-picker-input > input {
+    height: 100%;
+    border-color: $color-gray-100 !important;
+    box-shadow: none !important;
+    outline: none;
+
+    &::placeholder {
+      color: $color-gray-400;
+    }
+  }
+  &:hover .ant-picker-input > input {
+    border-color: $color-gray-100 !important;
+  }
+  &:focus,
+  &:focus-within {
+    background-color: $color-white !important;
+    border-color: $color-gray-100 !important;
+    box-shadow: none !important;
+    outline: none;
+
+    .ant-picker-input > input {
+      background-color: $color-white !important;
+    }
+  }
+
+  &:active {
+    background-color: $color-gray-25 !important;
+    border-color: $color-gray-100 !important;
+    box-shadow: none !important;
+    outline: none;
+  }
+}

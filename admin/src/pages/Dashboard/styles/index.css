@@ -1,0 +1,12 @@
+.star-display {
+  display: flex;
+  gap: 2px;
+}
+
+.filled-star {
+  color: #6f00ff;
+}
+
+.empty-star {
+  color: lightgray;
+}
